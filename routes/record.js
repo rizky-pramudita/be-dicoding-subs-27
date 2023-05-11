@@ -11,10 +11,10 @@ const multer = Multer({
 
 // TODO: Sesuaikan konfigurasi database
 const connection = mysql.createConnection({
-    host: 'public_ip_sql_instance_Anda',
+    host: '34.173.32.234',
     user: 'root',
-    database: 'nama_database_Anda',
-    password: 'password_sql_Anda'
+    database: 'moneytrackdb27',
+    password: 'rahasia'
 })
 
 router.get("/dashboard", (req, res) => {
